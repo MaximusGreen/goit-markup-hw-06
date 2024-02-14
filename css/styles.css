@@ -96,33 +96,10 @@ img {
     align-items: center;
 }
 
-.nav-ul .link {
-    padding: 24px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.add-ul .link {
-    font-weight: 400;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .page-add {
     font-style: normal;
     margin-left: auto;
     display: none;
-}
-
-.page-add .link:hover,
-.page-add .link:focus {
-    color: #404BBF;
-}
-
-.page-add .link {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -164,7 +141,7 @@ img {
         display: flex;
         gap: 40px;
         }
-    .link {
+    .nav-link {
         text-decoration: none;
         color: #2E2F42;
         font-size: 16px;
@@ -175,9 +152,9 @@ img {
         display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-    .link:hover,
-    .link:focus,
-    .link:active {
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
         color: #404BBF;
     }
     .current {
@@ -196,6 +173,18 @@ img {
     }
     .page-add {
         display: block;
+    }
+    .add-ul .link:hover,
+    .add-ul .link:focus {
+        color: #404BBF;
+    }
+    .add-ul .link {
+        font-weight: 400;
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
