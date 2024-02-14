@@ -1,9 +1,11 @@
+
+
 *,
  *::before,
 *::after {
     box-sizing: border-box;
 }
-
+*/
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -21,12 +23,8 @@ p {
     margin: 0;
 }
 
-.lii .title,
-.lii-div .title {
-    margin-bottom: 8px;
-}
-
-ul, ol {
+ul,
+ol {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -36,6 +34,14 @@ img {
     max-width: 100%;
     display: block;
 }
+
+
+
+.lii .title,
+.lii-div .title {
+    margin-bottom: 8px;
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -62,10 +68,23 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+/*====HEDR+++*/
+
 .container {
-    max-width: 1158px;
+    max-width: 320px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
+}
+@media screen and (min-width: 768px) {
+   .container {
+    max-width: 768px;
+   }
+}
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 16px;
+    }
 }
 
 .page-nav {
