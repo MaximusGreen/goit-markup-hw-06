@@ -5,14 +5,13 @@
 *::after {
     box-sizing: border-box;
 }
-*/
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
     font-size: 16px;
 }
-
 
 h1,
 h2,
@@ -34,6 +33,10 @@ ol {
 img {
     max-width: 100%;
     display: block;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*===========================HEDR================*/
@@ -362,43 +365,58 @@ img {
     .prg {
         font-weight: 400;
     }
-
-
 }
 
 /*=====================S3=====================*/
 
 .our-team {
     background-color: #F4F4FD;
-    flex-shrink: 0;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .conteiner-team .section-title {
     margin-bottom: 72px;
 }
 
-.our-team-li {
-background-color: #FFFFFF;
-width: calc((100% - 72px) / 4);
-border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 .conteiner-team-ul {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
     justify-content: center;
+    padding: 0 12px;
+}
+
+.our-team-li {
+   background-color: #FFFFFF;
+   border-radius: 0px 0px 4px 4px;
+   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-div {
     display: flex;
-    width: 264px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 32px 0;
     gap: 8px;
+}
+
+.team-div title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-div .prg {
@@ -417,11 +435,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     gap: 24px;
 }
 
-.icon-st {
-    margin: 12px;
-    fill: #f4f4fd;
-}
-
 .icst-linc {
    display: flex;
    align-items: center;
@@ -437,6 +450,28 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    background-color: #404bbf;
 }
 
+.icon-st {
+    margin: 12px;
+    fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+    .conteiner-team-ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .conteiner-team-ul {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .our-team-li {
+        width: calc((100% - 72px) / 4);
+        }
+}
+
 /*=====================S4=====================*/
 
 .portfolio {
@@ -445,16 +480,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .portfolio .section-title {
     margin-bottom: 72px;
-}
-
-.section-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
 }
 
 .portfolio-prg {
