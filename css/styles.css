@@ -10,6 +10,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
+    font-size: 16px;
 }
 
 
@@ -188,7 +189,7 @@ img {
     }
 }
 
-/*===S1===*/
+/*============S1=========*/
 
 .start {
     background-image: linear-gradient(to bottom,
@@ -262,10 +263,10 @@ img {
             margin-top: 48px;
         }}
 
-/*===S2===*/
+/*==========S2==============*/
 
 .zagolovok {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .visually-hidden {
@@ -283,7 +284,8 @@ img {
 
 .conteiner-ul {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
     align-items: center;
     justify-content: center;
 }
@@ -291,15 +293,25 @@ img {
 .lii .title,
 .lii-div .title {
     margin-bottom: 8px;
+        color: #2E2F42;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
 }
 
 .lii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+/* width: calc((100% - 72px) / 4);*/
 }
 
 .icss {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     background-color:#F4F4FD;
@@ -316,9 +328,6 @@ img {
     flex-shrink: 0;
 }
 
-.team {
-    background-color: #F4F4FD;
-}
 
 .section-title {
     color: #2E2F42;
@@ -337,6 +346,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+/*=====================S3=====================*/
 
 .our-team {
     background-color: #F4F4FD;
