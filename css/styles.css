@@ -198,27 +198,23 @@ img {
     background-size: cover;
     background-color: #2E2F42;
     background-position: center;
-    max-width: 1440px;
+    max-width: 320px;
+    height: 432px;
     margin: 0 auto;
-}
-
-.start-con {
-    padding: 188px 0;
-}
-
-.start-con .page-title {
-    height: 120px;
-    max-width: 496px;
-    margin: 0 auto 48px;
 }
 
 .page-title {
     color: #FFF;
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    height: 160px;
+    max-width: 288px;
+    padding: 72px 40px 160px;
+    margin-bottom: 72px;
 }
 
 .button {
