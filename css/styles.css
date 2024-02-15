@@ -243,6 +243,18 @@ img {
     background-color: #404BBF;
 }
 
+@media screen and (min-width: 768px) {
+    .start {
+        max-width: 768px;
+        height: 436px;    }
+    .page-title {
+        font-size: 56px;
+        line-height: 1.07;
+        height: 120px;
+        max-width: 496px;
+    }
+}    
+
 /*===S2===*/
 
 .zagolovok {
