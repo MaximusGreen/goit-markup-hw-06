@@ -243,19 +243,24 @@ img {
 
 @media screen and (min-width: 768px) {
     .start {
-        max-width: 768px;
-        height: 436px;    }
+        padding: 112px 0;
+    }
     .page-title {
         font-size: 56px;
         line-height: 1.07;
-        height: 120px;
         max-width: 496px;
     }
-    .start-con {
-        padding: 72px 76px 0;
-        gap: 36px;
+    .button {
+        margin-top: 36px;
     }
-}    
+}  
+@media screen and (min-width: 1158px) {
+    .start {
+            padding: 188px 0;
+        }
+        .button {
+            margin-top: 48px;
+        }}
 
 /*===S2===*/
 
