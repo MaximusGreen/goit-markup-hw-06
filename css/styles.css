@@ -252,6 +252,8 @@ img {
         line-height: 1.07;
         height: 120px;
         max-width: 496px;
+        padding: 136px 120px 160px;
+        margin-bottom: 36px;
     }
 }    
 
