@@ -36,7 +36,7 @@ img {
     display: block;
 }
 
-/*====HEDR+++*/
+/*===========================HEDR================*/
 
 .hedr {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -189,7 +189,7 @@ img {
     }
 }
 
-/*============S1=========*/
+/*===================S1=========================*/
 
 .start {
     background-image: linear-gradient(to bottom,
@@ -263,7 +263,7 @@ img {
             margin-top: 48px;
         }}
 
-/*==========S2==============*/
+/*=====================S2=======================*/
 
 .zagolovok {
     padding: 96px 0;
@@ -290,16 +290,6 @@ img {
     justify-content: center;
 }
 
-.lii .title,
-.lii-div .title {
-    margin-bottom: 8px;
-        color: #2E2F42;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-}
-
 .lii {
     display: flex;
     flex-direction: column;
@@ -307,14 +297,14 @@ img {
     justify-content: center;
     gap: 8px;
     background-color: #FFFFFF;
-/* width: calc((100% - 72px) / 4);*/
+    /* width: calc((100% - 72px) / 4);*/
 }
 
 .icss {
     display: none;
     align-items: center;
     justify-content: center;
-    background-color:#F4F4FD;
+    background-color: #F4F4FD;
     width: 264px;
     height: 112px;
     flex-shrink: 0;
@@ -328,23 +318,30 @@ img {
     flex-shrink: 0;
 }
 
-
-.section-title {
+.lii .title {
+    margin-bottom: 8px;
     color: #2E2F42;
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.prg {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .title {
-    color: #2E2F42;
+   /* color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;*/
 }
 
 /*=====================S3=====================*/
@@ -418,6 +415,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
    background-color: #404bbf;
 }
 
+/*=====================S4=====================*/
 
 .portfolio {
     padding: 120px 0 120px 0;
@@ -427,7 +425,16 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     margin-bottom: 72px;
 }
 
-.prg,
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
 .portfolio-prg {
     font-size: 16px;
     line-height: 150%;
@@ -460,6 +467,15 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .liii:hover p {
     transform: translateY(0%);
+}
+
+.lii-div .title {
+    margin-bottom: 8px;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .p-port {
