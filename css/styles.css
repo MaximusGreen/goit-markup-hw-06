@@ -103,10 +103,6 @@ a {
     color: #2e2f42;
 }
 
-.span-f {
-    color: #F4F4FD;
-}
-
 .btn-open-menu {
     padding: 0;
     background-color: transparent;
@@ -500,6 +496,7 @@ a {
     align-items: flex-start;
     flex-shrink: 0;
     background: #FFF;
+    border: 1px solid #f4f4fd;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -556,7 +553,6 @@ a {
     justify-content: center;
     align-items: flex-start;
     align-self: stretch;
-    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
@@ -584,40 +580,78 @@ a {
 
 .foot {
     background-color: #2E2F42;
-    padding: 100px 0;
+    padding: 96px 0;
+}
+
+.foot-cl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.foot-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-foot {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
+    text-align: center;
+}
+
+.span-f {
+    color: #F4F4FD;
+}
+
+.foot p {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .foot-text {
+    max-width: 288px;
     color: #F4F4FD;
-    letter-spacing: 0.03em;
-    line-height: 1.5;
-    max-width: 264px;
+}
+
+.foot-soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-soc p {
+    color: #FFF;
+    margin-bottom: 16px;
 }
 
 .foot-p {
     font-weight: 500;
 }
 
-.foot-div {
-    margin-right: 120px;
+.foot-socli {
+    display: flex;
+    gap: 16px;
 }
 
-.foot-cl {
+.icft {
     display: flex;
-    align-items: baseline;
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icft-linc {
@@ -635,46 +669,20 @@ a {
     background-color: #31d0aa;
 }
 
-.foot-socli {
-    display: flex;
-    gap: 16px;
-}
-
 .icon-ft {
     margin: 8px;
     fill: #f4f4fd;
 }
 
-.foot-soc p {
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #FFF;
-    margin-bottom: 16px;
-}
-
-.icft {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .label-df {
-    margin-left: 80px;
     display: flex;
     flex-direction: column;
-    max-width: 455px;
-    height: 108px;
+    align-items: center;
+    gap: 16px;
 }
 
 .label-p {
-    margin-bottom: 16px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
 }
 
 .form-f {
@@ -682,6 +690,7 @@ a {
     gap: 24px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .inpt-f {
@@ -693,7 +702,7 @@ a {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding-left: 16px;
@@ -740,9 +749,7 @@ a {
     fill: #fff;
 }
 
-
-
-
+/*=========================MODAL===================*/
 
 .backdrop {
     position: fixed;
