@@ -567,13 +567,10 @@ a {
         width: 356px;
     }
 }
-
 @media screen and (min-width: 1158px) {
     .portfolio {
         padding: 120px 0;
     }
-
-
 }
 
 /*=========================FOOT===================*/
@@ -747,6 +744,57 @@ a {
 .ic-sub {
     margin-left: 16px;
     fill: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .foot-cl{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 72px 24px;
+        max-width: 584px;
+    }
+    .foot-div {
+        align-items: flex-start;
+    }
+    .foot-text {
+        max-width: 264px;
+    }
+    .foot-soc {
+        align-items: flex-start;
+    }
+    .label-df {
+        align-items: flex-start;
+    }
+    .form-f {
+        flex-direction: row;
+        align-items: center;
+    }
+    .inpt-f {
+        width: 264px;
+    } 
+
+}
+
+@media screen and (min-width: 1158px) {
+    .foot {
+        padding: 100px 0;
+    }
+    .foot-cl {
+        gap: 0;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        max-width: 1158px;
+    }
+    .foot-div {
+        margin-right: 120px;
+        max-width: 264px;
+        max-height: 112px;
+    }
+    .foot-soc {
+        margin-right: 78px;
+    }
 }
 
 /*=========================MODAL===================*/
