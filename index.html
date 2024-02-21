@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -56,64 +55,73 @@
         </button>
       </div>
       <!-- Mob menu  -->
-      <div class="mob-menu container is-open" data-modal>
-        <button type="button" class="btn-menu" data-modal-close>
-          <svg class="ic-open-menu" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <ul class="nav-m">
-          <li>
-            <a class="nav-link-m current-m" href="./index.html">Studio</a>
-          </li>
-          <li><a class="nav-link-m" href="">Portfolio</a></li>
-          <li><a class="nav-link-m" href="">Contacts</a></li>
-        </ul>
-        <address class="page-add-m">
-          <ul class="add-ul-m">
-            <li>
-              <a class="link-m" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+      <div class="mob-menu is-open" data-modal>
+        <div>
+          <button type="button" class="btn-menu-cl" data-modal-close>
+            <svg class="ic-open-menu" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="nav-m">
+              <li>
+                <a class="nav-link-m current-m" href="./index.html">Studio</a>
+              </li>
+              <li><a class="nav-link-m" href="">Portfolio</a></li>
+              <li><a class="nav-link-m" href="">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <address class="page-add-m">
+            <ul class="add-ul-m">
+              <li>
+                <a class="link-m" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="link-m" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="our-team-soc-m">
+            <li class="icst">
+              <a class="icst-linc" href="">
+                <svg class="icon-st" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="link-m" href="tel:+110001111111">+11 (000) 111-11-11</a>
+
+            <li class="icst">
+              <a class="icst-linc" href="">
+                <svg class="icon-st" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="icst">
+              <a class="icst-linc" href="">
+                <svg class="icon-st" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="icst">
+              <a class="icst-linc" href="">
+                <svg class="icon-st" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="our-team-soc-m">
-          <li class="icst">
-            <a class="icst-linc" href="">
-              <svg class="icon-st" width="16" height="16">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="icst">
-            <a class="icst-linc" href="">
-              <svg class="icon-st" width="16" height="16">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="icst">
-            <a class="icst-linc" href="">
-              <svg class="icon-st" width="16" height="16">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="icst">
-            <a class="icst-linc" href="">
-              <svg class="icon-st" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
